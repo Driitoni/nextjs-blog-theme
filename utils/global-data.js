@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Onn Story';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : '"Where Imagination Writes the Rules."';
+    : '"Dream. Write. Escape."';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
