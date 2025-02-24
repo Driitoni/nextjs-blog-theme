@@ -6,8 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en" className="theme-compiled">
         <Head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5647102846442168"
-     crossorigin="anonymous"></script>
+          <meta name="google-adsense-account" content="ca-pub-5647102846442168">
       <Head/>
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
